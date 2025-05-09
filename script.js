@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', animateOnScroll);
     window.addEventListener('load', animateOnScroll);
 
-    // Accordion functionality
+    // Accordion functionality fags
     document.querySelectorAll('.accordion-trigger').forEach(button => {
         button.addEventListener('click', () => {
             const accordionItem = button.parentElement;
